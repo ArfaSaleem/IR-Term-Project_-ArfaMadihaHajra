@@ -21,13 +21,20 @@ Download folder. Open Second DataSet folder "Data Set 2- Sentence Corpus" and ru
 
 Second data set was taken from online source: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
 It is recommended to install the textblob libraries first.
-The txt files as read first and then pre-processed are used to create training and test data which is then classified.
+The .txt files as read first and then pre-processed are used to create training and test data which is then classified.
 Results: Acuuracy of Naive Bayes = 0.74, Rocchio = 0.68 and KNN= 0.74. So, Naive bayes and KNN works well in this case.
 
 ##############
 Third DataSet:
-Download Spacy
+Download folder. Open Third DataSet folder "Data Set 3- Health Tweets" and run "Pre-Processing Files.ipynb" to pre-process data.
+Run "Classifier-Data3.ipynb" to run classifiers.
 
+Third data set was taken from online source: https://archive.ics.uci.edu/ml/datasets/Sentence+Classification
+Download libraries.
+The .txt files are read first and pre-processed. The pre-processed files are then clustered as no labels are provided.
+The labeled result is stored as "health_tweets_labeled.csv" in dataset folder.
+The .csv file is used and classifiers are applied on it.
+Results: Acuuracy of Naive Bayes = 0.49 aprox 0.5, Rocchio = 0.63 and KNN= 0.74. So, Naive bayes and KNN works well in this case.
 
 
 
