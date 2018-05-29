@@ -34,7 +34,7 @@ Download libraries.
 The .txt files are read first and pre-processed. The pre-processed files are then clustered as no labels are provided.
 The labeled result is stored as "health_tweets_labeled.csv" in dataset folder.
 The .csv file is used and classifiers are applied on it.
-Results: Acuuracy of Naive Bayes = 0.49 aprox 0.5, Rocchio = 0.63 and KNN= 0.74. So, Naive bayes and KNN works well in this case.
+Results: Acuuracy of Naive Bayes = 0.49 aprox 0.5, Rocchio = 0.63 and KNN score was not displayed due to processing limitations. So, as a compariosn Rocchio works well in this case.
 
 
 
